@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:orientation="vertical"
+    tools:context="metronomo.charlieapps.com.metronomo.ActivityConfigMetrometro">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="0dp"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/formas"
+                android:padding="15dp"
+                android:layout_marginBottom="10dp">
+
+
+                <TextView
+                    style="@style/CharlieTVStyleTitulo"
+                    android:text="@string/act2_tTipo"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textView3" />
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text"
+                    android:id="@+id/rgInstrumento">
+                    <RadioButton
+                        style="@style/CharlieTVStyleTexto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_bajoguitarra"
+                        android:text="@string/act2_tvbajoGitarra"
+                        android:checked="true" />
+                    <RadioButton
+                        style="@style/CharlieTVStyleTexto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_bateria"
+                        android:text="@string/act2_tvbateria" />
+                    <RadioButton
+                        style="@style/CharlieTVStyleTexto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_piano"
+                        android:text="@string/act2_tvpiano" />
+                    <RadioButton
+                        style="@style/CharlieTVStyleTexto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_beep1"
+                        android:text="@string/act2_beep1" />
+                    <RadioButton
+                        style="@style/CharlieTVStyleTexto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_beep2"
+                        android:text="@string/act2_beep2" />
+                    <RadioButton
+                        style="@style/CharlieTVStyleTexto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_beep3"
+                        android:text="@string/act2_beep3" />
+                    <RadioButton
+                        style="@style/CharlieTVStyleTexto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_tap"
+                        android:text="@string/act2_tap" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/formas"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    style="@style/CharlieTVStyleTitulo"
+                    android:text="@string/act2_tVelocidad"
+                    android:layout_marginBottom="5dp"/>
+
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text"
+                    android:id="@+id/rgVelocidad" >
+                    <RadioButton
+                        style="@style/CharlieTVStyleTexto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_vel_rapida"
+
+                        android:text="@string/act2_velRapida" />
+                    <RadioButton
+                        style="@style/CharlieTVStyleTexto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_vel_normal"
+                        android:text="@string/act2_velNormal"
+                        android:checked="true" />
+                    <RadioButton
+                        style="@style/CharlieTVStyleTexto"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/rb_vel_lento"
+                        android:text="@string/act2_velLenta" />
+                </RadioGroup>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:background="@drawable/formas"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    style="@style/CharlieTVStyleTitulo"
+                    android:text="@string/act2_tDuracion"
+                    android:layout_marginBottom="5dp"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="match_parent">
+                        <TextView
+                            style="@style/CharlieTVStyleTexto"
+                            android:text="@string/act2_minutos"
+                            android:layout_marginBottom="5dp"/>
+
+                        <NumberPicker
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/forma_number_picker"
+                            android:id="@+id/np_minutos"
+                            android:backgroundTint="#1570cc" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="match_parent">
+                        <TextView
+                            style="@style/CharlieTVStyleTexto"
+                            android:text="@string/act2_segundos"
+                            android:layout_marginBottom="5dp"/>
+
+                        <NumberPicker
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/forma_number_picker"
+                            android:id="@+id/np_segundos" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:layout_height="match_parent">
+                        <TextView
+                            style="@style/CharlieTVStyleTexto"
+                            android:text="@string/act2_volumen"
+                            android:layout_marginBottom="5dp"/>
+                        <NumberPicker
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/forma_number_picker"
+                            android:id="@+id/np_volumen" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/act2_btn_comenzar"
+                android:background="@drawable/button_pressed"
+                android:textColor="@color/negro"
+                android:textStyle="bold"
+                android:id="@+id/btn_continuar"
+                android:onClick="btnContinuarClicked"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

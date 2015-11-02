@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Metronomo</string>
+    <string name="action_settings">Acerca de.</string>
+
+    <!-- Pantalla de inicio -->
+    <string name="act1_loading">Loading.</string>
+    <!-- Pantalla de inicio -->
+
+    <!-- Pantalla set metronomo options  -->
+    <string name="act2_tTipo">Tipo:</string>
+    <string name="act2_tvbajoGitarra">Guitarra</string>
+    <string name="act2_tvbateria"> Bateria</string>
+    <string name="act2_tvpiano"> Piano</string>
+    <string name="act2_tRitmo">Figura:</string>
+    <string name="act2_tvredonda">Redonda</string>
+    <string name="act2_tvblanca">Blanca</string>
+    <string name="act2_tvnegra">Negra</string>
+    <string name="act2_tvcorchea">Corchea</string>
+    <string name="act2_tVelocidad">Velocidad:</string>
+    <string name="act2_velRapida">Rápido: nota/seg</string>
+    <string name="act2_velNormal">Moderado: nota/1.5seg</string>
+    <string name="act2_velLenta">Lento: nota /2seg</string>
+    <string name="act2_tDuracion">Duración:</string>
+    <string name="act2_retraso">Retrazo:</string>
+    <string name="act2_btn_comenzar">Iniciar</string>
+    <string name="act2_beep1" translatable="false">beep1</string>
+    <string name="act2_beep2" translatable="false">beep2</string>
+    <string name="act2_beep3" translatable="false">beep3</string>
+    <string name="act2_tap">tap</string>
+
+    <string name = "act2_minutos">Minutos</string>
+    <string name = "act2_segundos">Segundos</string>
+    <string name = "act2_volumen">Volumen</string>
+
+
+    <!-- Pantalla Metronomo   -->
+    <string name = "ac3_duracion">Duración</string>
+
+    <!-- Pantalla Metronomo  -->
+
+    <!-- Pantalla set metronomo options  -->
+    <string name="cad_ad_titulo">App Metronomo</string>
+    <string name="cad_ad_contenido" translatable="false">Metronomo simple.
+        Totalmente gratiuta.
+        No contiene publicidad o anuncios.
+        No requiere ningun login.
+        OpenSource(*pendiente)
+        Descarga el codigo fuente de nuestra pagina web http://www.mundoandroid.com.mx
+
+    </string>
+    <string name="cad_ad_abajo">finalizada el 30/Oct/2015 3:04am. :)</string>
+    <!-- Pantalla set metronomo options  -->
+
+</resources>

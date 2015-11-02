@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Metronome</string>
+    <string name="ac3_duracion">Duration</string>
+    <string name="act1_loading">Loading</string>
+    <string name="act2_btn_comenzar">Start</string>
+    <string name="act2_minutos">Minutes</string>
+    <string name="act2_retraso">Delay</string>
+    <string name="act2_segundos">Seconds</string>
+    <string name="act2_tDuracion">Duration</string>
+    <string name="act2_tRitmo">Note:</string>
+    <string name="act2_tTipo">Type:</string>
+    <string name="act2_tVelocidad">Speed:</string>
+    <string name="act2_tvbajoGitarra">Guitar</string>
+    <string name="act2_tvbateria">Battery</string>
+    <string name="act2_tvcorchea">Eighth Note</string>
+    <string name="act2_tvredonda">Whole Note</string>
+    <string name="act2_tvblanca">Half Note</string>
+    <string name="act2_tvnegra">Quarter Note</string>
+    <string name="act2_tvpiano">Piano</string>
+    <string name="act2_velLenta">Slow:  2 sec.</string>
+    <string name="act2_velNormal">Normal: 1.5 sec.</string>
+    <string name="act2_velRapida">Fast: 1 sec.</string>
+    <string name="act2_volumen">Volume</string>
+    <string name="action_settings">About.</string>
+    <string name="cad_ad_abajo">Finished 0ct 30 2015 at 3:04 am :)</string>
+    <string name="cad_ad_titulo">Metronome</string>
+    <string name="act2_tap">tap</string>
+</resources>

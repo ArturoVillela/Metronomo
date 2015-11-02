@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Metronomo</string>
+    <string name="ac3_duracion">Duracion</string>
+    <string name="act1_loading">Loading</string>
+    <string name="act2_btn_comenzar">Iniciar</string>
+    <string name="act2_minutos">Minutos</string>
+    <string name="act2_retraso">Retraso</string>
+    <string name="act2_segundos">Segundos</string>
+    <string name="act2_tDuracion">Duración</string>
+    <string name="act2_tRitmo">Figura:</string>
+    <string name="act2_tTipo">Tipo:</string>
+    <string name="act2_tVelocidad">Velocidad</string>
+    <string name="act2_tap">tap</string>
+    <string name="act2_tvbajoGitarra">Guitarra</string>
+    <string name="act2_tvbateria">Bateria</string>
+    <string name="act2_tvblanca">Blanca</string>
+    <string name="act2_tvcorchea">Corchea</string>
+    <string name="act2_tvnegra">Negra</string>
+    <string name="act2_tvpiano">Piano</string>
+    <string name="act2_tvredonda">Redonda</string>
+    <string name="act2_velLenta">Lento: Nota x 2 Seg.</string>
+    <string name="act2_velNormal">Moderado: Nota x 1.5 Seg</string>
+    <string name="act2_velRapida">Rapido: Nota x 1 Seg</string>
+    <string name="act2_volumen">Volumen</string>
+    <string name="action_settings">Acerca De..</string>
+    <string name="cad_ad_abajo">Finalizada el 30/Oct/2015 3:04am :)</string>
+    <string name="cad_ad_contenido"></string>
+    <string name="cad_ad_titulo">Metrónomo</string>
+</resources>
